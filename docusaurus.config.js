@@ -87,6 +87,12 @@ const config = {
           {
             type: 'docSidebar',  // docSidebar
             position: 'left',
+            sidebarId: 'generalSidebar', // foldername
+            label: 'General',     // navbar title
+          },
+          {
+            type: 'docSidebar',  // docSidebar
+            position: 'left',
             sidebarId: 'digitalizadorSidebar', // foldername
             label: 'Digitalizador',     // navbar title
           },
