@@ -84,24 +84,22 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
+
+          {
+            type: 'docSidebar',  // docSidebar
+            position: 'left',
+            sidebarId: 'documentacionSidebar', // foldername
+            label: 'Documentación',     // navbar title
+          },
+
           {
             type: 'docSidebar',  // docSidebar
             position: 'left',
             sidebarId: 'generalSidebar', // foldername
             label: 'General',     // navbar title
           },
-          {
-            type: 'docSidebar',  // docSidebar
-            position: 'left',
-            sidebarId: 'digitalizadorSidebar', // foldername
-            label: 'Digitalizador',     // navbar title
-          },
-          {
-            type: 'docSidebar',  // docSidebar
-            position: 'left',
-            sidebarId: 'portalSidebar', // foldername
-            label: 'Portal',     // navbar title
-          },
+          
+          
           // {
           //   type: 'docSidebar',  // docSidebar
           //   position: 'left',
